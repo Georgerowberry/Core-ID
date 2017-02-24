@@ -330,6 +330,8 @@ h_info span{
     background-color: #000;
 }
 
+
+
 .subscribe-section {
     width: 100%;
     padding: 50px 0;
@@ -342,14 +344,34 @@ h_info span{
     -o-background-size: cover
 }
 
+.brand-images {
+    margin: 0 auto;
+    max-height: 200px;
+    vertical-align: middle;
+
+}
+
+.brands-highlight{
+    background-color: rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.vcenter {
+    display: flex;
+    align-items: center;
+}
+
 .brands-section {
+    text-align: center;
     width: 100%;
     padding:50px 0;
-    color: rgba(255, 255, 255, 0.3);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover
+    background-color: rgba(255, 255, 255, 0.3);
+    background: url(../img/pattern.png) repeat;
+    -webkit-background-size: repeat;
+    -moz-background-size: repeat;
+    background-size: repeat;
+    -o-background-size: repeat;
 }
 
 #map {
